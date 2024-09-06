@@ -66,7 +66,7 @@ If you want to customize how TeamCity produces the log output, use special [serv
 
 ## Search in All Build Logs
 
-<include include-id="search-in-logs" src="search.md"/>
+<include element-id="search-in-logs" from="search.md"/>
 
 ## Extras
 
