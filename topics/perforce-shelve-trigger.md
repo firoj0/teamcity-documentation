@@ -32,3 +32,13 @@ If the VCS Root ID is unavailable/unnecessary, use the `vcsRoot.1.shelvedChangel
 ## Logging Events
 
 This trigger logs events to the `teamcity-triggers.log` file with the `perforceShelveTrigger` logging key.
+<triggers>
+	<trigger type="vcsTrigger">
+		<properties>
+			<property name="branchFilter" value="+:*"/>
+			<property name="enableQueueOptimization" value="true"/>
+			<property name="quietPeriodMode" value="DO_NOT_USE"/>
+		</properties>
+	</trigger>
+</triggers> 
+# vcs
